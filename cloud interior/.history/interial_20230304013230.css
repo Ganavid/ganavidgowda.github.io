@@ -1,0 +1,173 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: left;
+    background-color: #BDD0F5;
+    padding: 3px;
+    align-items: center;
+    height: 9vh;
+    position: fixed;
+    width: 100vw;
+    min-width: fit-content;
+}
+
+#logocnt{
+    display: flex;
+    flex-direction: row;
+    margin:8px 0px 8px 0px;
+}
+
+#logo{
+    height: 80px;
+    width: 200px;
+    margin: 2px;
+}
+
+#contents{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+#contents li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+
+#contents li a{
+    text-decoration: none;
+    margin: 0xp 10px 0px 10px;
+    color:white;
+    font-family: ebrima;
+    font-weight: bold;
+    font-size: 140%;
+    color: black;
+}
+
+#content2 {
+    display: flex;
+    flex-direction:row;
+    margin: 0px;
+    padding: 0px;
+    justify-content:space-between;
+    height: 91vh;
+    background-color: #3abccb11;
+}
+
+
+#subcontent{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: normal;
+    justify-content: center;
+    margin: 3px;
+    padding: 5px;
+}
+
+#subcontent h1 {
+    color: #A8502F;
+    font-size: 500%;
+    font-family: Arial Rounded MT;
+    font-weight: bold;
+    margin: 3px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#subcontent h1 span{
+    color: #263B8F;
+    font-size: 150%;
+    margin: 3px;
+    text-transform: uppercase;
+}
+
+#subcontent p{
+    max-width: 60%;
+    font-size: 150%;
+    font-family: Ebrima;
+    font-weight: bold;
+    margin: 3px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#subcontent p span{
+    font-size: 300%;
+}
+
+
+
+#subcntimg{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+
+#starter{
+    align-self: flex-end;
+    width: 90%;
+    margin-bottom: 4px;
+    
+}
+
+img{
+    margin-top: 20px;
+    width: 400px;
+    align-items: center;
+}
+#ser{
+    border: solid aquamarine;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    justify-content: space-around;
+
+}
+#services{
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+    padding: 30px;
+    padding-top: 0;
+   
+}
+#items{display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    padding: 30px;
+    border: solid aqua;
+    align-content: space-around;
+    margin: 20px;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+#about{
+background-color: lavender;
+justify-content: center;
+height: 30vh;
+padding: 30px;
+}
+#img1{
+    border-radius: 50%;
+    width:90%;
+    
+}
+#abtcon{
+    width: 60%;
+}

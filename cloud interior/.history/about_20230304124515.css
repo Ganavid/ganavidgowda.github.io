@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    padding: 20px;
+}
+
+#logocnt{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#contents{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+#contents li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+
+#contents li a{
+    text-decoration: none;
+    margin: 0xp 10px 0px 10px;
+    color:white;
+}
+
+
+
+#container{
+ border: solid aqua;
+ width: 60%;
+ margin: 30px;
+ 
+}
+
+#im{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+#topic{
+ display: flex;
+ flex-direction: row;
+ 
+}
+#subcontainer{
+
+    height: 50%;
+    margin: 50px;
+    width: 60%;
+    margin-top: 0%;
+}
+h1{
+    padding-top: 50px;
+}

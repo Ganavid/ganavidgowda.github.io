@@ -1,0 +1,102 @@
+nav{
+    display: flex;
+    justify-content: left;
+    background-color: #BDD0F5;
+    padding: 3px;
+    align-items: center;
+}
+
+#logocnt{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    height: 80px;
+    width: 200px;
+    margin: 2px;
+}
+
+#contents{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+#contents li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+
+#contents li a{
+    text-decoration: none;
+    margin: 0xp 10px 0px 10px;
+    color:white;
+}
+
+#content2 {
+    display: flex;
+    flex-direction:row;
+    margin: 20px;
+    padding-top: 20px;
+    justify-content:center;
+    height: 80vh;
+    background-color: #3abccb11;
+}
+#subcontent{
+    width: 40%;
+    padding: 40px;
+    align-items: center;
+    
+}
+img{
+    margin-top: 20px;
+    width: 400px;
+    align-items: center;
+}
+#ser{
+    border: solid aquamarine;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    justify-content: space-around;
+
+}
+#services{
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+    padding: 30px;
+    padding-top: 0;
+   
+}
+#items{display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    padding: 30px;
+    border: solid aqua;
+    align-content: space-around;
+    margin: 20px;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+#about{
+background-color: lavender;
+justify-content: center;
+height: 30vh;
+padding: 30px;
+}
+#img1{
+    border-radius: 50%;
+    width:90%;
+    
+}
+#abtcon{
+    width: 60%;
+}

@@ -1,0 +1,104 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 15vh;
+    background-color: rgba(123, 190, 212, 0.13);
+}
+
+
+nav{
+    display: flex;
+    justify-content: left;
+    background-color: #BDD0F5;
+    padding: 3px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    min-height: 20px;
+}
+
+#logocnt{
+    display: flex;
+    flex-direction: row;
+    margin:8px 0px 8px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logo{
+    height: 60px;
+    width: 150px;
+    margin:8px 0px 8px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contents{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+#contents li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+
+#contents li a{
+    text-decoration: none;
+    margin: 0xp 10px 0px 10px;
+    color:white;
+    font-family: ebrima;
+    font-weight: bold;
+    font-size: 120%;
+    color: black;
+    padding-left: 30PX;
+}
+
+fieldset{
+    border:3px solid #2569B8;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-items: center;
+    height: max-content;
+    
+}
+
+
+.text{
+    text-align: center;
+    font-size: medium;
+}
+
+.subcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: max-content;
+    padding: 20px;
+    overflow: wrap;
+
+    
+}
+.images{
+    min-height: 50px;
+    max-height: 150px;
+    min-width: 20vw;
+    max-width: 30vh;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
